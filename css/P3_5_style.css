@@ -1,0 +1,477 @@
+
+body{
+	font-family: Roboto;
+}
+
+.policeShrikhand{
+	font-family: Shrikhand;
+	}
+
+
+.titleContainer{ 
+	width: 200PX;
+    height: 40PX;
+    margin-right: 107PX;
+    margin-left: 78PX;
+    margin-bottom: 10PX;
+
+}
+.marginIconTitle{
+	margin-bottom: 10PX;
+}
+
+.textGras{
+	font-weight: bold;
+}
+.fontStyle{
+	font-family: italic;
+	font-style: oblique 20deg;
+
+}
+.flexCenterTitle{
+	display: flex;
+	justify-content: space-evenly;
+  align-items: center;
+  margin-left:-6PX ;
+  margin-right: 70PX;
+
+}
+.decor{
+	text-decoration: none;
+	color: black;
+}
+
+.flexCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexBetween{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flexAround{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flexStart{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	}
+
+.containerCard1{
+	width: 430PX;
+	height: 1866PX;
+	background-color: #F2F2F2;
+	position: relative;
+
+}
+
+.marginTitleMenu{
+		margin-bottom: 10PX;
+	}
+.cardMenu1{
+  border-radius:40PX 40PX 0PX 0PX;
+  position:absolute;  
+  background-color: #F2F2F2;
+  width: 100%;
+  margin-top: -60PX;
+}
+
+.imageCard3{
+	background-image: url( "../images/ohmyfoods_2.jpg");
+	width: 100%;
+	height: 400PX;
+	background-position: center;
+	background-size: cover;
+	border-radius: 0PX 0PX 15PX 15PX;
+
+}
+
+.margin2ORight{
+	margin-right: 20PX;
+}
+.marginPrice{
+	margin-right: 92PX;
+	margin-bottom: -30PX;
+  overflow: visible;
+  
+}
+
+.marginTextAnim{
+
+	margin-left: 5PX;
+  width: 288PX;
+  }
+  .marginTextAnim2{
+ 	width: 320PX;
+ }
+ .carreMenu2:hover .marginTextAnim2{
+	text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 270PX;
+  transition: 0.2s;
+ }
+  .carreMenu2:hover .marginTextAnim{
+	text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 260PX;
+  transition: 0.2s;
+  
+  }
+  .carreMenu21:hover .marginTextAnim{
+	text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 278PX;
+  transition: 0.2s;
+  
+  }
+
+  .carreMenu22:hover .marginTextAnim{
+	text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 288PX;
+  transition: 0.2s;
+ } 
+  
+
+
+.marginBottom0{
+	margin-bottom: -10PX;
+}
+
+.marginBottom20{
+	margin-bottom: 20PX;
+}
+.marginTop10{
+	margin-top: 10PX;
+}
+
+.margin10Left{
+	margin-left: 10PX;
+}
+
+.colorLightGrey{
+	color: grey;
+}
+.textDecor{
+	margin-left: 13PX;
+	border-bottom: solid #99E2D0
+ 3PX;
+	width: 40PX;
+}
+
+.colorWithIcon{
+	color: white;
+	margin-right: 124PX;
+}
+
+.icons{
+	position: relative;
+	margin-right: 30PX;
+	margin-top: 10PX;
+	
+}
+
+
+.icons:hover .iconHeart1{
+	opacity: 0;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.iconHeart1{
+
+position: absolute;
+opacity: 1;
+
+}
+
+.iconHeart2{
+	color: transparent;
+	background: linear-gradient(#FF79DA,#9356DC);
+	-webkit-background-clip: text;
+opacity: 0;
+transition: 0.3s all linear 0s;
+left: 0;
+bottom: 0;
+
+}
+
+.icons:hover .iconHeart2{
+	opacity: 1;
+	
+  cursor: pointer;
+	
+}
+
+.transitionHeart{
+	transition: 0.3s;
+	top: 0;
+	left: 0;
+}
+
+
+.blockMenu{
+	 
+opacity: 1;
+	
+	animation: animationOpacity 2s;	 
+	 
+}
+
+
+.carreMenu2{
+
+	margin-left: 2%;
+	margin-right:4%;
+	border: solid #F2F2F2;
+	border-radius: 15PX;
+	box-shadow: 5PX 5PX 5PX 1PX grey;
+	margin-top: 30PX;
+	margin-bottom: 20PX;
+	background-color: white;
+	position: relative;
+	opacity: 1;
+	animation-duration: 0.5s;
+	
+	animation: animationOpacity 1s ease;
+
+}
+
+@keyframes animationOpacity{
+    
+ 	  from{
+ 	  	opacity:0;
+ 	  	animation-delay: 1s;
+
+ 	  	margin-bottom: 30PX;
+ 	  } 
+ 	  to{
+ 	  	opacity:1;
+ 	  	margin-bottom: 20PX;
+ 	  }
+ 	 }
+
+.carreMenu21{
+
+	margin-left: 2%;
+	margin-right:4%;
+	border: solid #F2F2F2;
+	border-radius: 15PX;
+	box-shadow: 5PX 5PX 5PX 1PX grey;
+	margin-bottom: 20PX;
+	background-color: white;
+	position: relative;
+	opacity: 1;
+	animation-delay: 2s;
+	transition-delay: 0.5s;
+	animation-duration: 0.5s;
+	animation: animationOpacity21 2s ease;
+
+}
+
+@keyframes animationOpacity21{
+    
+ 	  from{
+ 	  	opacity:0;
+ 	  	animation-delay: 2s;
+ 	  	margin-bottom: 30PX;
+ 	  } 
+ 	  to{
+ 	  	opacity:1;
+ 	  	margin-bottom: 20PX;
+ 	  }
+     
+}
+.carreMenu22{
+
+	margin-left: 2%;
+	margin-right:4%;
+	border: solid #F2F2F2;
+	border-radius: 15PX;
+	box-shadow: 5PX 5PX 5PX 1PX grey;
+	transition: 0.3S;
+	background-color: white;
+	position: relative;
+	opacity: 1;
+	animation-delay: 3s;
+	transition-delay: 1s;
+	animation-duration: 0.5s;
+	margin-bottom:20PX ;
+	
+	animation: animationOpacity22 3s ease;
+
+}
+
+@keyframes animationOpacity22{
+    
+ 	  from{
+ 	  	opacity:0;
+ 	  	animation-delay: 3s;
+ 	  	margin-bottom: 30PX;
+ 	  	
+ 	  } 
+ 	  to{
+ 	  	opacity:1;
+ 	  	margin-bottom: 20PX;
+ 	  	
+ 	  }
+     
+}
+
+.carreMenu2:hover{
+	transition: 0.3S;
+	background-color: white;
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+}
+.carreMenu21:hover{
+	background-color: white;
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+}
+.carreMenu22:hover{
+	transition: 0.3S;
+	background-color: white;
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+}
+
+.iconTransition{
+	position: absolute;
+	animation-delay: all 100s ease;
+	opacity: 0;
+	background-color: #99E2D0
+;
+	transform: rotate(0deg);
+	
+	
+}
+
+.carreMenu2:hover .iconTransition{
+	opacity: 1;
+	align-items: center;
+	transform: rotate(360deg);	
+	transition: all 0.5s ease;
+}
+.carreMenu21:hover .iconTransition{
+	opacity: 1;
+	align-items: center;
+	transform: rotate(360deg);
+	transition: all 0.5s ease;	
+}
+.carreMenu22:hover .iconTransition{
+	opacity: 1;
+	align-items: center;
+	transform: rotate(360deg);	
+	transition: all 0.5s ease;
+}
+
+
+.iconAnimation{
+	background-color: #99E2D0;
+	position: absolute;
+	width: 0%;
+  height: 100%;
+  border-radius: 0PX 15PX 15PX 0PX;
+  
+  right: 0;
+  top: 0;
+  
+  
+  
+}
+
+.carreMenu2:hover .iconAnimation{
+	
+	width: 15%;
+	margin-left: 20PX;
+}
+.carreMenu21:hover .iconAnimation{
+	
+	width: 15%;
+	margin-left: 20PX;
+
+
+}
+.carreMenu22:hover .iconAnimation{
+	
+	width: 15%;
+	margin-left: 20PX;
+}
+.border1{
+	background:linear-gradient(#FF79DA,#9356DC); ;
+	cursor: pointer;
+	border-radius: 25PX;
+	margin-right: 50PX;
+	margin-left: 50PX;
+	color: #F5F5F5;
+	box-shadow: 5PX 5PX 5PX 1PX grey;
+	margin-top: 60PX;
+}
+.border1:hover{
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+	color: white;
+
+
+}
+	    
+	                          
+	                          /* FOOTER*/
+
+
+
+.boxDark{
+	width: 412PX;
+	height:200PX;
+	background-color: #4e4e4e;
+	color: white;
+	padding-left: 20PX;
+	
+
+}
+.marginTextFooter{
+	margin-bottom: 10PX;
+	margin-top: 0PX;
+}
+.padding10{
+	padding-right: 10PX;
+}
+
+.containerFooter{ 
+                  
+	              font-size: 10PX ;
+	              width: 150PX;
+	              height: 20PX;
+	              color : white;
+	              margin-top: 25PX;
+
+}
+
+.marginTitleFooter{
+margin-top: 10PX;
+margin-bottom: -5PX;
+}
+
+
+
+
+
+	
+	
+
+
+
+

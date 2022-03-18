@@ -1,0 +1,411 @@
+
+
+
+body{
+
+	font-family: Roboto;
+}
+.loadIcon{
+	border: solid 10PX #F2F2F2 ;
+	border-radius: 50%;
+	border-top: 10PX solid #9356DC;
+	border-bottom: 10PX solid #FF79DA;
+	width:60PX;
+	height: 60PX;
+	margin: auto;
+	position: fixed;
+	top: 0;left: 0; right:0;bottom: 0;
+	z-index: 0;
+	opacity: 0;
+	animation:loadAnimation 3s ease ;
+}
+@keyframes loadAnimation
+{
+	from{
+     transform: rotate(0deg);
+     z-index: 3;
+     opacity: 1;
+	}
+	to{
+		transform: rotate(360deg);
+		z-index: 0;
+		opacity: 0;
+
+	}
+}
+
+.loader{
+
+    
+	opacity:1 ;
+	z-index: 1;
+	background-color: #FFFF;
+    animation: animLoad   ;
+    animation-duration: 3s;
+    animation-delay: 0.2;
+}
+
+@keyframes animLoad{
+ 
+ from{
+   opacity: 0.1;
+  z-index: 2;
+  animation-delay: 3s;
+  animation: disappear 0.2s ;
+  }
+  to{
+  opacity: 1;
+  z-index: 0;
+ }
+
+}
+
+.titleContainer{ 
+	width: 200PX;
+    height: 40PX;
+    margin-bottom: 9PX;
+
+
+}
+.marginTitleContainer{
+ margin-left: 18PX;
+}
+
+.flexCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexStart{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.flexBetween{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flexAround{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.colorGrey{
+	color: Grey;
+}
+
+.backGrey{
+	background-color: lightgrey;
+}
+.backGrey2{
+	background-color: #F2F2F2;
+}
+
+.colorWhite{
+	color: white;
+}
+
+.container1{
+	width: 430PX;
+	height: 400PX;
+}
+
+.padding50{
+	
+	padding-left: 50PX;
+	padding-right: 50PX;
+	text-align: center;
+}
+
+.padding20{
+	
+	padding-left: 20PX;
+	padding-right: 20PX;
+	text-align: center;
+}
+.margin10Left{
+	margin-left: 20PX;
+}
+.padding10{
+	padding-right: 10PX;
+}
+
+.textGras{
+	font-weight:bold;
+}
+
+.colorGrey{
+	color: lightgrey;
+}
+
+.border{
+	border: solid 1PX lightgrey;
+	background-color: lightgrey ;
+}
+
+.border1{
+	background: linear-gradient(#FF79DA,#9356DC);
+	cursor: pointer;
+	border-radius: 25PX;
+	margin-top: 16PX;
+	margin-right: 50PX;
+	margin-left: 50PX;
+	color: white;
+	box-shadow: 5PX 5PX 5PX 1PX grey;
+	transition: 0.3s;
+}
+.border1:hover{
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+}
+
+.backViolet{
+
+	background-color: #E6E6FA;
+}
+.colorViolet{
+	color: darkviolet ;
+}
+.marginTextMenu1{
+   margin-left:-68PX;
+}
+.marginTextMenu2{
+	margin-top: -9PX;
+	margin-left: -71PX;
+}
+.border3{
+	cursor: pointer;
+	border-radius: 25PX;
+	margin-right: 50PX;
+	margin-left: 50PX;
+	margin-bottom: 20PX;
+	box-shadow: 5PX 5PX 5PX 1PX grey;
+	transition: 0.3s;
+}
+.border3:hover{
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+	background-color: #E6E6FA;
+}
+
+.policeShrikhand{
+	font-family: Shrikhand;
+}
+
+.icons1{
+	width:50PX;
+	height: 50PX;
+
+}
+
+.padding0Left{
+	padding: 0%;
+}
+.iconsStyle{
+	width: 30PX;
+	height: 30PX;
+	border-radius: 25PX;
+	background-color:#9356DC ;
+	margin-left: -60PX;
+}
+
+
+
+
+
+
+
+.Primaire{
+	color: #9356DC;
+}
+
+.Secondaire{
+	color: #FF79DA;
+}
+
+.Tertiaire{
+	color: #99E2D0;
+}
+
+/* container2  (carte menu) */
+
+
+.container2{
+	width: 430PX;
+	height: 1600PX;
+	background-color: #F2F2F2;
+	
+
+}
+
+.margin20Right{
+    margin-right: 20PX;
+}
+.margin30Left{
+	margin-left: 30PX;
+}
+.marginIcons{
+	margin-left: 20PX;
+	margin-right: 20PX;
+}
+
+.padding30Left{
+	padding-left: 30px;
+}
+.decor{
+	text-decoration: none;
+	color: black;
+}
+
+.carreMenu{
+	cursor: pointer;
+    width: 90%;
+	border-radius: 15PX;
+	background-color: white;
+    margin: auto;
+    margin-top: 10PX;
+    box-shadow: 5PX 5PX 5PX 1PX grey;
+    position: relative;
+    background-color: #F5F5F5;
+    transition: 0.3s;
+}
+.carreMenu:hover{
+	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
+	background-color: white;
+}
+
+
+
+
+.icons{
+	position: relative;
+	margin-right: -26PX;
+	margin-top: 10PX;
+	
+}
+.iconHeart1{
+
+position: absolute;
+opacity: 1;
+
+}
+.icons:hover .iconHeart1{
+	opacity: 0;
+	cursor: pointer;
+	
+}
+
+.iconHeart2{
+opacity: 0;
+cursor: pointer;
+position: absolute;
+color: transparent;
+	background: linear-gradient(#FF79DA,#9356DC);
+	-webkit-background-clip: text;
+
+}
+.icons:hover .iconHeart2{
+ opacity: 1;
+ cursor: pointer;
+ transition: 0.4s;
+}
+.flexEnd{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.textImage{
+	content: Nouveau;
+	position: absolute;
+	width: 90PX;
+	height: 30PX;
+	background-color: #99E2D0;
+	color: green;
+	margin-right: 10PX;
+	margin-top: 10PX;
+	text-align: center;
+	font-weight: bold;
+}
+
+.imageMenu1{
+	background-image: url( "../images/ohmyfoods_1.jpg");
+	width: 100%;
+	height: 200PX;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15PX 15PX 0PX 0PX;
+    
+}
+
+.imageMenu2{
+	background-image: url( "../images/ohmyfoods_3.jpg");
+	width: 100%;
+	height: 200PX;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15PX 15PX 0PX 0PX;
+}
+
+.imageMenu3{
+	background-image: url( "../images/ohmyfoods_4.jpg");
+	width: 100%;
+	height: 200PX;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15PX 15PX 0PX 0PX;
+}
+
+.imageMenu4{
+	background-image: url( "../images/ohmyfoods_2.jpg");
+	width: 100%;
+	height: 200PX;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15PX 15PX 0PX 0PX;
+}
+
+.flexColumnAround{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.boxDark{
+	
+	width:412PX;
+	height:200PX;
+    background-color: #4e4e4e;
+	color: white;
+	padding-left: 20PX;
+	
+	
+
+}
+.marginTextFooter{
+	margin-bottom: 10PX;
+	margin-top: 0PX;
+}
+
+.containerFooter{ 
+                  
+	              font-size: 10PX ;
+	              width: 150PX;
+	              height: 20PX;
+	              color : white;
+	              margin-top: 26PX;
+
+}
+
+.marginTitleFooter{
+margin-top: 10PX;
+margin-bottom: -5PX;
+}
+
+
