@@ -353,8 +353,8 @@ opacity: 1;
 	position: absolute;
 	animation-delay: all 100s ease;
 	opacity: 0;
-	background-color: #99E2D0
-;
+	background-color: #99E2D0;
+	transition-delay: 0.1s;
 	transform: rotate(0deg);
 	
 	
@@ -386,7 +386,7 @@ opacity: 1;
 	width: 0%;
   height: 100%;
   border-radius: 0PX 15PX 15PX 0PX;
-  
+  transition-duration: 0.5s;
   right: 0;
   top: 0;
   
@@ -463,6 +463,23 @@ opacity: 1;
 .marginTitleFooter{
 margin-top: 10PX;
 margin-bottom: -5PX;
+}
+
+@media screen and ( max-width : 400PX){
+
+
+body{
+	margin: 0%;
+}
+	
+
+.titleContainer{
+	margin-right: 92PX;
+	margin-left: 43PX;
+}	
+.icons{
+	margin-right: 15PX;
+}
 }
 
 

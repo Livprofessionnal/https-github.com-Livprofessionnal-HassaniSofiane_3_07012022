@@ -349,6 +349,7 @@ opacity: 1;
 	opacity: 0;
 	background-color: #99E2D0;
 	transform: rotate(0deg);
+	transition-delay: 0.1s;
 	
 	
 }
@@ -379,7 +380,7 @@ opacity: 1;
 	width: 0%;
   height: 100%;
   border-radius: 0PX 15PX 15PX 0PX;
-  
+  transition-duration: 0.5s;
   right: 0;
   top: 0;
   
@@ -459,7 +460,20 @@ margin-bottom: -5PX;
 }
 
 
+@media screen and ( max-width : 400PX){
 
+
+body{
+	margin: 0%;
+}
+.titleContainer{
+	margin-right: 92PX;
+	margin-left: 43PX;
+}	
+.icons{
+	margin-right: 10PX;
+}
+}
 
 
 	

@@ -409,3 +409,21 @@ margin-bottom: -5PX;
 }
 
 
+
+@media screen and (max-width : 400PX ){
+
+body{
+	margin : 0%
+}
+
+.titleContainer{
+	margin-right: 92PX;
+	margin-left: 43PX;
+}
+.marginTextMenu1 {
+	margin-left: -60px;
+}	
+.marginTextMenu2 {
+	margin-left: -60px;
+}
+}
