@@ -2,7 +2,7 @@
 
 
 body{
-
+     
 	font-family: Roboto;
 }
 .loadIcon{
@@ -15,7 +15,7 @@ body{
 	margin: auto;
 	position: fixed;
 	top: 0;left: 0; right:0;bottom: 0;
-	z-index: 0;
+	z-index: 2;
 	opacity: 0;
 	animation:loadAnimation 3s ease ;
 }
@@ -68,7 +68,7 @@ body{
 
 }
 .marginTitleContainer{
- margin-left: 18PX;
+ margin-left: 5%;
 }
 
 .flexCenter{
@@ -109,21 +109,24 @@ body{
 .backGrey2{
 	background-color: #F2F2F2;
 }
+.paddingTitle{
+	text-align: center;
+	padding: 5%;
+}
 
 .colorWhite{
 	color: white;
 }
 
 .container1{
-	width: 430PX;
-	height: 400PX;
+	width:auto;
+	padding-bottom: 90PX;
 }
 
-.padding50{
+.paddingFonctionnement{
 	
-	padding-left: 50PX;
-	padding-right: 50PX;
-	text-align: center;
+	padding-left: 5%;
+	padding-top: 30PX;
 }
 
 .padding20{
@@ -144,7 +147,7 @@ body{
 }
 
 .colorGrey{
-	color: lightgrey;
+	color: #5f52528c;
 }
 
 .border{
@@ -157,8 +160,8 @@ body{
 	cursor: pointer;
 	border-radius: 25PX;
 	margin-top: 16PX;
-	margin-right: 50PX;
-	margin-left: 50PX;
+	margin-right: 17%;
+	margin-left: 17%;
 	color: white;
 	box-shadow: 5PX 5PX 5PX 1PX grey;
 	transition: 0.3s;
@@ -183,12 +186,15 @@ body{
 }
 .border3{
 	cursor: pointer;
-	border-radius: 25PX;
-	margin-right: 50PX;
-	margin-left: 50PX;
-	margin-bottom: 20PX;
+	border-radius: 35PX;
+	margin-right: 8%;
+	margin-left: 8%;
+	margin-bottom: 40PX;
 	box-shadow: 5PX 5PX 5PX 1PX grey;
 	transition: 0.3s;
+	position: relative;
+	z-index: 1;
+	height: 77px;
 }
 .border3:hover{
 	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
@@ -197,6 +203,9 @@ body{
 
 .policeShrikhand{
 	font-family: Shrikhand;
+}
+.policeRoboto{
+	font-family: roboto;
 }
 
 .icons1{
@@ -213,7 +222,8 @@ body{
 	height: 30PX;
 	border-radius: 25PX;
 	background-color:#9356DC ;
-	margin-left: -60PX;
+	margin-left: -99%;
+	position: absolute;
 }
 
 
@@ -238,9 +248,10 @@ body{
 
 
 .container2{
-	width: 430PX;
-	height: 1600PX;
+	width: auto;
+	padding-bottom: 100PX;
 	background-color: #F2F2F2;
+	padding-top: 50PX;
 	
 
 }
@@ -270,7 +281,7 @@ body{
 	border-radius: 15PX;
 	background-color: white;
     margin: auto;
-    margin-top: 10PX;
+    margin-top: 20PX;
     box-shadow: 5PX 5PX 5PX 1PX grey;
     position: relative;
     background-color: #F5F5F5;
@@ -281,7 +292,9 @@ body{
 	background-color: white;
 }
 
-
+.paddingTextMenu{
+	padding-left: 4%;
+}
 
 
 .icons{
@@ -311,7 +324,7 @@ color: transparent;
 	-webkit-background-clip: text;
 
 }
-.icons:hover .iconHeart2{
+.icons:active.iconHeart2{
  opacity: 1;
  cursor: pointer;
  transition: 0.4s;
@@ -378,9 +391,10 @@ color: transparent;
 }
 
 .boxDark{
-	
-	width:412PX;
-	height:200PX;
+	margin-top: 0PX;
+	width:auto;
+	padding-top: 13PX;
+	padding-bottom: 13PX;
     background-color: #4e4e4e;
 	color: white;
 	padding-left: 20PX;
@@ -409,12 +423,18 @@ margin-bottom: -5PX;
 }
 
 
+@media screen and (max-width : 750PX ){
+	body{
 
+	margin : 0% ;
+  }
+}
 @media screen and (max-width : 400PX ){
 
 body{
-	margin : 0%
-}
+	margin : 0%;
+  }
+
 
 .titleContainer{
 	margin-right: 92PX;
@@ -426,4 +446,7 @@ body{
 .marginTextMenu2 {
 	margin-left: -60px;
 }
+.paddingTitleMobil{
+	padding-left: 15%;
+  }
 }
