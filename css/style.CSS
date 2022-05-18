@@ -99,8 +99,12 @@ body{
 	justify-content: space-around;
 	align-items: center;
 }
-.colorGrey{
+.colorIcon{
 	color: Grey;
+}
+.colorIcon:hover{
+	color: #9356DC;
+    
 }
 
 .backGrey{
@@ -114,6 +118,10 @@ body{
 	padding: 5%;
 }
 
+.fontTextMenu{
+	font-size: 18px;
+	font-weight: bold;
+}
 .colorWhite{
 	color: white;
 }
@@ -127,6 +135,7 @@ body{
 	
 	padding-left: 5%;
 	padding-top: 30PX;
+	font-size: 28px;
 }
 
 .padding20{
@@ -178,11 +187,11 @@ body{
 	color: darkviolet ;
 }
 .marginTextMenu1{
-   margin-left:-68PX;
+   margin-left: 7PX;
 }
 .marginTextMenu2{
 	margin-top: -9PX;
-	margin-left: -71PX;
+	margin-left: 7PX;
 }
 .border3{
 	cursor: pointer;
@@ -293,13 +302,13 @@ body{
 }
 
 .paddingTextMenu{
-	padding-left: 4%;
+	padding-left: 5px;
 }
 
 
 .icons{
 	position: relative;
-	margin-right: -26PX;
+	margin-right: 20PX;
 	margin-top: 10PX;
 	
 }
@@ -441,10 +450,10 @@ body{
 	margin-left: 43PX;
 }
 .marginTextMenu1 {
-	margin-left: -60px;
+	margin-left: 7px;
 }	
 .marginTextMenu2 {
-	margin-left: -60px;
+	margin-left: 7px;
 }
 .paddingTitleMobil{
 	padding-left: 15%;

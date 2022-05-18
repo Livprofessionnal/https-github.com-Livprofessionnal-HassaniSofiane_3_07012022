@@ -103,8 +103,13 @@ body{
 	border-radius: 0PX 0PX 15PX 15PX;
 	}
 
-
-
+.fontTextMenu{
+	font-size: 18px;
+	font-weight: bold;
+}
+.fontSize15px{
+	font-size: 15PX;
+}
 .margin2ORight{
 	margin-right: 20PX;
 }
@@ -120,19 +125,12 @@ body{
 .marginTextAnim{
 
 	margin-left: 5PX;
-  width: 288PX;
+  width: 290PX;
   }
-  .marginTextAnim2{
- 	width: 320PX;
- }
- .carreMenu2:hover .marginTextAnim2{
-	text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 260PX;
-  transition: 0.2s;
- }
-  .carreMenu2:hover .marginTextAnim{
+  
+ 
+ 
+  .carreMenu:hover .marginTextAnim{
 	text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -140,22 +138,7 @@ body{
   transition: 0.2s;
   
   }
-  .carreMenu21:hover .marginTextAnim{
-	text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 260PX;
-  transition: 0.2s;
   
-  }
-
-  .carreMenu22:hover .marginTextAnim{
-	text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 260PX;
-  transition: 0.2s;
- } 
   
 
 
@@ -240,16 +223,20 @@ opacity: 1;
 }
 
 
-.carreMenu2{
+.carreMenu{
 
 	margin-left: 3%;
 	margin-right:2%;
 	border: solid #F2F2F2;
 	border-radius: 15PX;
 	box-shadow: 5PX 5PX 5PX 1PX grey;
-	margin-top: 30PX;
-	margin-bottom: 20PX;
+	  
 	background-color: #F5F5F5;
+  }
+  
+.carreMenuAnimation{
+  margin-top: 30PX;   
+	margin-bottom: 20PX;
 	position: relative;
 	opacity: 1;
 	animation-duration: 0.5s;
@@ -263,24 +250,19 @@ opacity: 1;
  	  from{
  	  	opacity:0;
  	  	animation-delay: 1s;
-
+      margin-top: 30PX;
  	  	margin-bottom: 30PX;
  	  } 
  	  to{
  	  	opacity:1;
+ 	  	margin-top: 20PX;
  	  	margin-bottom: 20PX;
  	  }
  	 }
 
-.carreMenu21{
-
-	margin-left: 3%;
-	margin-right:2%;
-	border: solid #F2F2F2;
-	border-radius: 15PX;
-	box-shadow: 5PX 5PX 5PX 1PX grey;
+.carreMenuAnimation1{
+  margin-top: 30PX;
 	margin-bottom: 20PX;
-	background-color: #F5F5F5;
 	position: relative;
 	opacity: 1;
 	animation-delay: 2s;
@@ -296,22 +278,19 @@ opacity: 1;
  	  	opacity:0;
  	  	animation-delay: 2s;
  	  	margin-bottom: 30PX;
+ 	  	margin-top: 30PX;
  	  } 
  	  to{
  	  	opacity:1;
  	  	margin-bottom: 20PX;
+ 	  	margin-top: 20PX;
  	  }
      
 }
-.carreMenu22{
+.carreMenuAnimation2{
 
-	margin-left: 3%;
-	margin-right:2%;
-	border: solid #F2F2F2;
-	border-radius: 15PX;
-	box-shadow: 5PX 5PX 5PX 1PX grey;
-	
-	background-color: #F5F5F5;
+	margin-top: 30PX;
+	margin-bottom: 20PX;
 	position: relative;
 	opacity: 1;
 	animation-delay: 3s;
@@ -329,11 +308,12 @@ opacity: 1;
  	  	opacity:0;
  	  	animation-delay: 3s;
  	  	margin-bottom: 30PX;
- 	  	
+ 	  	margin-top: 30PX;
  	  } 
  	  to{
  	  	opacity:1;
  	  	margin-bottom: 20PX;
+ 	  	margin-top: 20PX;
  	  	
  	  }
      
@@ -349,38 +329,20 @@ opacity: 1;
 		
 }
 
-.carreMenu2:hover{
-	background-color: white;
-	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
-}
-.carreMenu21:hover{
-	background-color: white;
-	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
-}
-.carreMenu22:hover{
+.carreMenu:hover{
 	background-color: white;
 	box-shadow: 5PX 5PX 5PX 1PX lightgrey;
 }
 
-.carreMenu2:hover .iconTransition{
+
+.carreMenu:hover .iconTransition{
 	opacity: 1;
 	align-items: center;
 	transform: rotate(360deg);
 	transition: all 0.5s ease;	
 	transition-delay: all 0.5s;
 }
-.carreMenu21:hover .iconTransition{
-	opacity: 1;
-	align-items: center;
-	transform: rotate(360deg);	
-	transition: all 0.5s ease;
-}
-.carreMenu22:hover .iconTransition{
-	opacity: 1;
-	align-items: center;
-	transition: all 0.5s ease;
-	transform: rotate(360deg);	
-}
+
 
 
 .iconAnimation{
@@ -389,7 +351,7 @@ opacity: 1;
 	
   height: 100%;
   border-radius: 0PX 15PX 15PX 0PX;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   right: 0;
   top: 0;
   width: 0%;
@@ -398,23 +360,13 @@ opacity: 1;
   
 }
 
-.carreMenu2:hover .iconAnimation{
+.carreMenu:hover .iconAnimation{
 	opacity: 1;
 	width: 50PX;
 	margin-left: 20PX;
 }
-.carreMenu21:hover .iconAnimation{
-	opacity: 1;
-	width: 50PX;
-	margin-left: 20PX;
 
 
-}
-.carreMenu22:hover .iconAnimation{
-	opacity: 1;
-	width: 50PX;
-	margin-left: 20PX;
-}
 .border1{
 	background:linear-gradient(#FF79DA,#9356DC); ;
 	cursor: pointer;
@@ -468,9 +420,24 @@ margin-top: 10PX;
 margin-bottom: -5PX;
 }
 
+
+
+
+
   /!-------RESPONSIF------------------!/
 
 
+
+
+
+@media screen and ( max-width : 700PX){
+
+.border1{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+}
 @media screen and ( max-width : 400PX){
 
 
@@ -493,31 +460,9 @@ body{
 	margin-left: 2PX;
 }	
 	
-.carreMenu2:hover .marginTextAnim2{
-	text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 210PX;
-  transition: 0.2s;
- }
-  .carreMenu2:hover .marginTextAnim{
-	text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 210PX;
-  transition: 0.2s;
-  
-  }
-  .carreMenu21:hover .marginTextAnim{
-	text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 210PX;
-  transition: 0.2s;
-  
-  }
 
-  .carreMenu22:hover .marginTextAnim{
+
+  .carreMenu:hover .marginTextAnim{
 	text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -528,7 +473,7 @@ body{
 @media screen and ( max-width : 375PX){
 
 .fontSizeMobile{
-	font-size: 13PX;
+	font-size: 12PX;
 
 }
 .fontSizeMobileTitle{
